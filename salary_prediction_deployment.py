@@ -12,8 +12,8 @@ import pandas as pd
 import numpy as np
 import joblib
 
-model = joblib.load("salary_prediction_model.pk1")
-encoder = joblib.load("label_encoder.pk1")
+model = joblib.load("salary_prediction_model.pkl")
+encoder = joblib.load("label_encoder.pkl")
 
 st.title("Salary Prediction")
 
